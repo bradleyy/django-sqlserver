@@ -310,12 +310,3 @@ class SQLAggregateCompiler(sqlserver_ado.compiler.SQLAggregateCompiler, SQLCompi
     pass
 
 
-class SQLDateCompiler(sqlserver_ado.compiler.SQLDateCompiler, SQLCompiler):
-    pass
-
-
-try:
-    class SQLDateTimeCompiler(sqlserver_ado.compiler.SQLDateTimeCompiler, SQLCompiler):
-        pass
-except AttributeError:
-    pass
