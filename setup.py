@@ -32,6 +32,6 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Database',
     ],
-    install_requires=['django-mssql>=1.8'],
+    #install_requires=['django-mssql>=1.8'],
     zip_safe=True,
 )
